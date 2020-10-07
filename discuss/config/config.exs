@@ -47,6 +47,6 @@ github_client_secret =
     environment variable GITHUB_CLIENT_SECRET is missing.
     """
 
-config :ueberauth, Ueberauth.Strategy.Github.Oauth,
+config :ueberauth, Ueberauth.Strategy.Github.OAuth,
   client_id: github_client_id,
   client_secret: github_client_secret
