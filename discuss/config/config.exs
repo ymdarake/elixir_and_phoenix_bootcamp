@@ -35,6 +35,18 @@ config :ueberauth, Ueberauth,
     github: { Ueberauth.Strategy.Github, [] }
   ]
 
+github_client_id =
+  System.get_env("GITHUB_CLIENT_ID") ||
+    raise """
+    environment variable GITHUB_CLIENT_ID is missing.
+    """
+
+github_client_secret =
+  System.get_env("GITHUB_CLIENT_SECRET") ||
+    raise """
+    environment variable GITHUB_CLIENT_SECRET is missing.
+    """
+
 config :ueberauth, Ueberauth.Strategy.Github.Oauth,
-  client_id: "FIXME",
-  client_secret: "FIXME"
+  client_id: github_client_id,
+  client_secret: github_client_secret
