@@ -7,3 +7,4 @@
  - [Phoenix WebSockets Under a Microscope](https://zorbash.com/post/phoenix-websockets-under-a-microscope/)
  - [Learn you some Erlang for great good!](https://www.ymotongpoo.com/works/lyse-ja/)
  - [Programming Elixir](https://www.amazon.co.jp/dp/B01KFCXP04)
+ - [Multi-Player Game with Elixir, Phoenix, Vue & Elm](https://pragmaticstudio.com/unpacked-multi-player-bingo-with-elixir-phoenix-vue-elm)
