@@ -2,6 +2,7 @@
  Sample code for the lecture [The Complete Elixir and Phoenix Bootcamp](https://www.udemy.com/course/the-complete-elixir-and-phoenix-bootcamp-and-tutorial).
 
 # NEXT UP
+ - [https://elixir-lang.org/getting-started/](https://elixir-lang.org/getting-started/introduction.html)
  - [Minimal Elixir JSON RESTful API](https://blog.lelonek.me/minimal-elixir-http2-server-64188d0c1f3a)
  - [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
  - [Phoenix WebSockets Under a Microscope](https://zorbash.com/post/phoenix-websockets-under-a-microscope/)
